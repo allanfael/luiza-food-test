@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=2499&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Cheeseburger Clássico",
+    "description": "Hambúrguer suculento com queijo derretido.",
+    "value": 24.90,
+    "type": "hamburger",
+    "rate": 4.7
+  },
+  {
+    "id": "2",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=2499&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Hambúrguer Bacon",
+    "description": "Carne grelhada com muito bacon crocante.",
+    "value": 29.90,
+    "type": "hamburger",
+    "rate": 4.8
+  },
+  {
+    "id": "3",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=2499&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Hambúrguer Vegano",
+    "description": "Delicioso hambúrguer feito com ingredientes vegetais.",
+    "value": 27.50,
+    "type": "hamburger",
+    "rate": 4.6
+  },
+  {
+    "id": "4",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=2499&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Duplo Cheddar",
+    "description": "Dois hambúrgueres e muito cheddar.",
+    "value": 32.00,
+    "type": "hamburger",
+    "rate": 4.9
+  },
+  {
+    "id": "5",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=2499&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Hambúrguer Picante",
+    "description": "Para quem gosta de um toque apimentado.",
+    "value": 26.90,
+    "type": "hamburger",
+    "rate": 4.5
+  },
+  {
+    "id": "6",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=2499&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Hambúrguer Artesanal",
+    "description": "Ingredientes selecionados e molho especial da casa.",
+    "value": 34.50,
+    "type": "hamburger",
+    "rate": 4.8
+  },
+  {
+    "id": "7",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=2499&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "X-Tudo",
+    "description": "Tudo o que você imaginar em um só lanche.",
+    "value": 39.90,
+    "type": "hamburger",
+    "rate": 4.7
+  },
+  {
+    "id": "8",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=2499&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Smash Burger",
+    "description": "Hambúrguer fininho e crocante.",
+    "value": 22.00,
+    "type": "hamburger",
+    "rate": 4.6
+  },
+  {
+    "id": "9",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=2499&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Hambúrguer BBQ",
+    "description": "Com molho barbecue artesanal.",
+    "value": 28.90,
+    "type": "hamburger",
+    "rate": 4.8
+  },
+  {
+    "id": "10",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=2499&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Hambúrguer Trufado",
+    "description": "Uma explosão de sabores sofisticados.",
+    "value": 42.00,
+    "type": "hamburger",
+    "rate": 4.9
+  },
+  {
+    "id": "11",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Pizza Margherita",
+    "description": "Tradicional com molho de tomate e manjericão.",
+    "value": 45.00,
+    "type": "pizza",
+    "rate": 4.7
+  },
+  {
+    "id": "12",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Pizza Calabresa",
+    "description": "Calabresa fatiada e cebola roxa.",
+    "value": 49.90,
+    "type": "pizza",
+    "rate": 4.8
+  },
+  {
+    "id": "13",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Pizza 4 Queijos",
+    "description": "Combinação irresistível de quatro queijos.",
+    "value": 54.00,
+    "type": "pizza",
+    "rate": 4.9
+  },
+  {
+    "id": "14",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Pizza Portuguesa",
+    "description": "Presunto, ovos, cebola e azeitonas.",
+    "value": 52.00,
+    "type": "pizza",
+    "rate": 4.6
+  },
+  {
+    "id": "15",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Pizza Pepperoni",
+    "description": "Clássica pizza americana com pepperoni.",
+    "value": 53.00,
+    "type": "pizza",
+    "rate": 4.8
+  },
+  {
+    "id": "16",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Pizza Frango com Catupiry",
+    "description": "Frango desfiado com cremosidade do catupiry.",
+    "value": 51.90,
+    "type": "pizza",
+    "rate": 4.7
+  },
+  {
+    "id": "17",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Pizza Vegana",
+    "description": "Sem derivados animais, mas cheia de sabor.",
+    "value": 50.00,
+    "type": "pizza",
+    "rate": 4.5
+  },
+  {
+    "id": "18",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Pizza Bacon Supreme",
+    "description": "Para os amantes de bacon.",
+    "value": 55.00,
+    "type": "pizza",
+    "rate": 4.8
+  },
+  {
+    "id": "19",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Pizza de Rúcula com Tomate Seco",
+    "description": "Frescor da rúcula com o sabor do tomate seco.",
+    "value": 49.00,
+    "type": "pizza",
+    "rate": 4.7
+  },
+  {
+    "id": "20",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Pizza de Chocolate",
+    "description": "Sobremesa perfeita para os chocólatras.",
+    "value": 48.00,
+    "type": "pizza",
+    "rate": 4.9
+  }
+]
