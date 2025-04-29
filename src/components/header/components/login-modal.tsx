@@ -97,7 +97,7 @@ export const LoginModal = () => {
   }
 
   return (
-    <ModalPage title="Cadastrar Usuário" showCloseButton>
+    <ModalPage title="Fazer login" showCloseButton>
       <ModalContent>
         <div className="flex flex-col gap-6 w-xs">
           <Input
@@ -120,7 +120,7 @@ export const LoginModal = () => {
 
       <ModalContent className="mt-16 mb-8 flex flex-col">
         <Button onClick={handleSubmit(onSubmit)} disabled={isSubmitting} loading={isSubmitting} className="flex-1">
-          Cadastrar
+          Entrar
         </Button>
 
         <Button variant='link' onClick={() => setShowModal('REGISTER')}>Não tem conta? Criar conta</Button>

@@ -9,13 +9,12 @@ import {
 } from "@/components/ui/sheet"
 import { useCartStore } from "@/store/cart-store"
 import { useSheet } from "@/store/sheet-store"
-import { CartItem } from "./cart-item"
 import { currencyParse } from "@/utils/currency-parse"
 import { ScrollArea } from "@/components/ui/scroll-area"
 
 export const Sheet = () => {
   const { isOpened } = useSheet()
-  const { items, addItem, removeItem, totalValue } = useCartStore()
+  const { items, totalValue } = useCartStore()
 
   return (
     <SheetPrimitive open={isOpened}>
@@ -32,15 +31,6 @@ export const Sheet = () => {
         <div className="flex flex-col flex-1 min-h-full">
           <ScrollArea className="h-4/5 rounded-md">
             <div className="flex flex-col gap-4 px-5 py-4">
-              {items?.map((item) => (
-                <CartItem 
-                  key={item.id} 
-                  item={item} 
-                  onAdd={addItem} 
-                  onRemove={removeItem} 
-                  quantity={item.quantity}
-                />
-              ))}
             </div>
           </ScrollArea>
 
