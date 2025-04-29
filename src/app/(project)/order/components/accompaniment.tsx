@@ -11,8 +11,6 @@ export const Accompaniment = () => {
   const { onHandleAccompaniment, items } = useCartStore()
   const { product } = useProduct()
 
-  console.log('items', JSON.stringify(items, null, 2))
-
   const accompanimentArray = [
     {
       id: 1,

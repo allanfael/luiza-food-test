@@ -8,7 +8,7 @@ import { useMemo } from "react"
 
 export const ProductDetails = () => {
   const { product } = useProduct()
-  const { addItem, totalValue, removeItem, items } = useCartStore()
+  const { addItem, removeItem, items } = useCartStore()
 
   const selectedProduct = useMemo(() => {
     return items.find((i) => i.product.id === product.id)
@@ -16,9 +16,6 @@ export const ProductDetails = () => {
 
   const amountProductPrice = selectedProduct?.product.discountPrice || selectedProduct?.product.initialPrice || selectedProduct?.product.price || 0
   const total = amountProductPrice * (selectedProduct?.product.quantity || 0)
-
-  console.log('product', JSON.stringify(product, null, 2))
-  console.log('totalValue', JSON.stringify(totalValue, null, 2))
 
   return (
     <div className="flex p-4 flex-col bg-white">

@@ -11,8 +11,6 @@ export const Cutlery = () => {
   const { onHandleCutlery, items } = useCartStore()
   const { product } = useProduct()
 
-  console.log('items', JSON.stringify(items, null, 2))
-
   const array = [
     {
       id: 1,

@@ -16,7 +16,6 @@ export const FloatingButton = () => {
   }, [items, product])
 
   const enabledButton = !!cart?.product.id && cart.accompaniment.length > 0 
-  console.log('status', enabledButton)
   
   return (
     <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-6xl px-4 pb-4 bg-transparent z-10">
