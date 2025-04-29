@@ -8,7 +8,7 @@ export const Subtotal = () => {
   const { totalItemsValue } = useCartStore()
 
   return (
-    <div className="fixed bottom-0 rounded-md shadow-md left-[41rem] transform -translate-x-1/2 w-full bg-white inset-shadow-sm max-w-6xl h-24 z-10">
+    <div className="fixed bottom-0 rounded-t-md shadow-md left-1/2 transform -translate-x-1/2 w-full bg-white inset-shadow-sm max-w-6xl h-24 z-10">
       <div className="flex justify-between px-4">
         <div className="flex flex-col mt-6 flex-1">
           <span className="text-sm font-semibold">subtotal</span>
