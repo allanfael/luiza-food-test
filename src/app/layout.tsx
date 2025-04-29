@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Poppins } from "next/font/google";
+import { Geist, Geist_Mono, Nunito } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner"
 import "./globals.css";
 import '@/config/firebase'
@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const poppins = Poppins({
-  variable: '--font-poppins',
+const nunito = Nunito({
+  variable: '--font-nunito',
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700'],
 })
@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${poppins.variable} ${geistSans.variable} ${geistMono.variable} bg-background`}
+        className={`${nunito.variable} ${geistSans.variable} ${geistMono.variable} bg-background`}
       >
         {children}
         <Toaster />
