@@ -1,4 +1,4 @@
-export const currencyParse = (value: number | null): string => {
+export const currencyParse = (value: number | null | undefined): string => {
   const currency = new Intl.NumberFormat('pt-BR', {
     currency: 'BRL',
     style: 'currency',

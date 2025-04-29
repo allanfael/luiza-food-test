@@ -9,7 +9,7 @@ export default function RootLayout({
     <div className="flex flex-col h-full w-full">
       <Header />
 
-      <div className="flex mt-16 justify-center bg-[#F5F5F5] min-h-screen w-full overflow-x-auto overflow-y-auto p-6">
+      <div className="flex mt-9 justify-center bg-neutral-100 min-h-full w-full overflow-x-auto overflow-y-auto">
         {children}
       </div>
     </div>

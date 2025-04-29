@@ -26,7 +26,3 @@ Foram utilizados nesse projeto:
 - [Tailwind]() - Ferramento de estilização para HTML consolidado no mercado.
 - [Shadcn]() - Biblioteca de componentes bastante utilizado
 - [Jest Library]() - Para testes unitário/integração
-
-## Como testar
-
-Bastar rodar o script yarn test

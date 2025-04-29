@@ -1,0 +1,80 @@
+  {
+    "store": {
+      "storeName": "Matsuri Concept",
+      "deliveryPrice": 4.99,
+      "deliveryTime": {
+        "min": 30,
+        "max": 40
+      },
+      "distance": "5.2",
+      "rate": 4.5,
+      "closeAt": "20:00",
+      "minOrder": 15
+    },
+    "products": [
+      {
+        "id": 1,
+        "name": "Niguiri",
+        "description": "Melhor Niguiri da cidade"
+      },
+      {
+        "name": "Ceviches",
+        "fullName": "Ceviches de salmão",
+        "description": "um prato super refrescante de peixe fatiado e marinado com limão",
+        "isPortion": true,
+        "foods": [
+          {
+            "id": 2,
+            "name": "Médio",
+            "description": "salmão temperado com limão, cebola e pimenta",
+            "price": 22.9,
+            "discountPrice": 19.9
+          },
+          {
+            "id": 21,
+            "name": "Grande",
+            "description": "salmão temperado com limão, cebola e pimenta",
+            "price": 28.9
+          }
+        ]
+      },
+      {
+        "name": "Temaki",
+        "description": "sushi em forma de cone com salmão e cream cheese",
+        "isPortion": false,
+        "foods": [
+          {
+            "id": 3,
+            "name": "Califórnia",
+            "fullName": "Temaki California",
+            "description": "Kani, pepino e maçã ou manga",
+            "price": 17.00,
+            "discountPrice": 13.99
+          },
+          {
+            "id": 4,
+            "name": "Filadélfia",
+            "fullName": "Temaki Filadélfia",
+            "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+            "price": 13.00,
+            "type": "vegetal"
+          },
+          {
+            "id": 5,
+            "name": "Salmão picante",
+            "description": "Alga, arroz, salmão fresco, pimenta e cebolinha",
+            "initialPrice": 13.99,
+            "type": "picante"
+          }
+        ]
+      },
+      {
+        "name": "Bebidas",
+        "description": "Melhores bebidas"
+      },
+      {
+        "name": "Sobremesas",
+        "description": "Melhores Sobremesas"
+      }
+    ]
+  }
